@@ -1,47 +1,129 @@
-/* リセットCSS */
+/* Reset CSS */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
+/* Body */
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
 }
 
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  padding: 16px;
-  color: #fff;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 nav ul {
   display: flex;
-  list-style: none;
 }
 
 nav li {
-  margin-left: 24px;
+  margin-right: 1rem;
 }
 
 nav a {
-  color: #fff;
   text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
 }
 
+nav a:hover {
+  color: #0066cc;
+}
+
+/* Main */
 main {
   max-width: 800px;
-  margin: 32px auto;
-  padding: 0 16px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-  font-size: 32px;
- 
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+li {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+li img {
+  width: 100%;
+  height: auto;
+}
+
+li h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #0066cc;
+  color: #fff;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile img {
+  width: 50%;
+  height: auto;
+  margin: 2rem 0;
+  border-radius: 50%;
+}
+
+#contact {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#contact a {
+  display: inline-block;
+  background-color: #0066cc;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#contact a:hover {
+  background-color: #004080;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
