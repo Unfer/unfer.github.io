@@ -163,3 +163,155 @@ footer p {
   margin: 0;
 }
 
+/* 全体のスタイル */
+body {
+font-family: "Helvetica Neue", Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+background-color: #f9f9f9;
+margin: 0;
+}
+
+/* ヘッダー */
+header {
+background-color: #333;
+color: #fff;
+padding: 10px;
+}
+
+header h1 {
+margin: 0;
+font-size: 32px;
+}
+
+header nav {
+text-align: right;
+}
+
+header nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+header nav li {
+display: inline-block;
+margin-left: 20px;
+}
+
+header nav li:first-child {
+margin-left: 0;
+}
+
+header nav li a {
+display: inline-block;
+color: #fff;
+text-decoration: none;
+padding: 10px;
+}
+
+header nav li a:hover {
+background-color: #555;
+}
+
+/* メインコンテンツ */
+main {
+max-width: 1000px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/* 制作物 */
+#works {
+margin-top: 40px;
+}
+
+#works h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#works ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#works li {
+display: inline-block;
+margin-right: 20px;
+vertical-align: top;
+width: 30%;
+}
+
+#works li:last-child {
+margin-right: 0;
+}
+
+#works li img {
+width: 100%;
+height: auto;
+}
+
+#works li h3 {
+margin-top: 10px;
+font-size: 18px;
+text-align: center;
+}
+
+/* プロフィール */
+#profile {
+margin-top: 40px;
+text-align: center;
+}
+
+#profile h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#profile img {
+width: 50%;
+height: auto;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+#profile p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+/* お問い合わせ */
+#contact {
+margin-top: 40px;
+}
+
+#contact h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#contact p {
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+#contact a {
+display: block;
+font-size: 18px;
+color: #333;
+text-decoration: none;
+padding: 10px;
+border: 1px solid #333;
+border-radius: 5px;
+width: 200px;
+margin: 0 auto;
+}
+
+#contact a:hover {
+background-color: #333;
+color: #fff;
+}
